@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: Scaffold(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.red,
         appBar: AppBar(
           title: Text("I am Poor"),
           backgroundColor: Colors.teal,
